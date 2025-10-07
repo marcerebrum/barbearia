@@ -14,7 +14,7 @@
           Localização
         </span>
         <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-          Venha nos Visitar
+          Aguardamos sua visita
         </h2>
       </div>
 
