@@ -4,7 +4,7 @@ Landing page para barbearia.
 
 # LINK DO PROJETO
 
-???
+[https://barbearia-eight-zeta.vercel.app](https://barbearia-eight-zeta.vercel.app/)
 
 # FERRAMENTAS UTILIZADAS
 
