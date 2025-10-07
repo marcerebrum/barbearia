@@ -8,12 +8,12 @@ Landing page para barbearia.
 
 # FERRAMENTAS UTILIZADAS
 
-Nuxt.JS - framework javascript
-Tailwind - framework CSS
-VSCODE - IDE para desenvolvimento na metodologia "Vibe Coding"
-LLM - Claude Sonnet 3.5
-Github - versionamento do código
-Vercel - hospedagem com deploy automatico, conforme atualizações no Github
+* Nuxt.JS - framework javascript
+* Tailwind - framework CSS
+* VSCODE - IDE para desenvolvimento na metodologia "Vibe Coding"
+* LLM - Claude Sonnet 3.5
+* Github - versionamento do código
+* Vercel - hospedagem com deploy automatico, conforme atualizações no Github
 
 # PROCESSO DE DESENVOLVIMENTO
 
