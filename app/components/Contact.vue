@@ -75,18 +75,18 @@
 
             <!-- Social Media -->
             <div class="flex gap-4">
-              <a href="#" class="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
-                <svg class="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+              <a href="#" class="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors" aria-label="Facebook">
+                <svg class="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 24 24" role="img" aria-hidden="true">
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3V2z"></path>
                 </svg>
               </a>
-              <a href="#" class="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
-                <svg class="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+              <a href="#" class="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors" aria-label="Twitter">
+                <svg class="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 24 24" role="img" aria-hidden="true">
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                 </svg>
               </a>
-              <a href="#" class="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
-                <svg class="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+              <a href="#" class="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors" aria-label="Instagram">
+                <svg class="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 24 24" role="img" aria-hidden="true">
                   <path d="M16.98 0a6.9 6.9 0 01-5.03 1.45c-1.97.08-3.86.72-5.43 1.82A11.7 11.7 0 002.1 8.12C1.38 10.21.96 12.36 1 14.55c.03 2.2.51 4.37 1.44 6.39.93 2.02 2.27 3.8 3.97 5.27a11.7 11.7 0 006.63 2.76c2.09.17 4.19-.12 6.15-.87 1.96-.75 3.73-1.95 5.21-3.52 1.48-1.57 2.6-3.45 3.3-5.51.7-2.06.94-4.24.72-6.39-.22-2.14-.89-4.21-1.97-6.09-1.08-1.88-2.54-3.51-4.29-4.81-1.75-1.3-3.74-2.2-5.87-2.63-.47-.09-.93-.16-1.4-.2zM12 0c6.63 0 12 5.37 12 12s-5.37 12-12 12S0 18.63 0 12 5.37 0 12 0zm0 4.8c-3.97 0-7.2 3.23-7.2 7.2s3.23 7.2 7.2 7.2 7.2-3.23 7.2-7.2-3.23-7.2-7.2-7.2zm0 1.2a6 6 0 110 12 6 6 0 010-12z"></path>
                 </svg>
               </a>
@@ -97,16 +97,18 @@
         <!-- Right Column - Map -->
         <div class="w-full h-[500px] rounded-xl overflow-hidden relative">
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975736096!2d-46.6522!3d-23.5505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzAxLjgiUyA0NsKwMzknMDcuOSJX!5e0!3m2!1spt-BR!2sbr!4v1635786987654!5m2!1spt-BR!2sbr" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975736096!2d-46.6522!3d-23.5505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0x4b30d3018a20b!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1696685532793!5m2!1spt-BR!2sbr"
             width="100%" 
             height="100%" 
             style="border:0;" 
-            allowfullscreen="" 
+            allowfullscreen="true" 
             loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização da Barbearia Clássica"
             class="filter grayscale contrast-125"
           ></iframe>
-          <!-- Map Overlay -->
-          <div class="absolute inset-0 border border-white/10 rounded-xl pointer-events-none"></div>
+          <!-- Map Overlay - Border only -->
+          <div class="absolute inset-0 border border-white/10 rounded-xl"></div>
         </div>
       </div>
     </div>
